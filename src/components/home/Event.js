@@ -14,7 +14,7 @@ function Event({ event, getEvents, editEvent }) {  //event is snippet object so 
         <div className="event">
             <div className="container">
                 {event.title && <h2 className="title">{event.title}</h2>}
-                {event.description && <p><h3 className="description">{event.description}</h3></p>}
+                {event.description && <h3 className="description">{event.description}</h3>}
                 {event.location && <h3 className="location">{event.location}</h3>}
                 {event.day && <h4 className="day">{event.day}/</h4>}
                 {event.month && <h4 className="month">{event.month}/</h4>}

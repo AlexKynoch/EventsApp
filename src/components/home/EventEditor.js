@@ -57,6 +57,7 @@ function EventEditor({ getEvents, setEventEditorOpen, editEventData }) {
         setEditorDay("");
         setEditorMonth("");
         setEditorYear("");
+
     }
 
 
