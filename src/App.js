@@ -1,9 +1,11 @@
 import React from "react"
-import './App.css';
+// import './App.css';
 import Router from "./Router";
+import "./style/index.scss"
 
 function App() {
-  return <Router />
+  return <div className="container"><Router /></div>
+
 
 }
 

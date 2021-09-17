@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
+import "./EventEditor.scss";
 
 function EventEditor({ getEvents, setEventEditorOpen, editEventData }) {
 
@@ -104,8 +105,8 @@ function EventEditor({ getEvents, setEventEditorOpen, editEventData }) {
                     value={editorYear}
                     onChange={(e) => setEditorYear(e.target.value)} />
 
-                <button type="submit">Save Event</button>
-                <button type="button" onClick={closeEditor}>Cancel</button>
+                <button className="btn-save" type="submit">Save</button>
+                <button className="btn-cancel" type="button" onClick={closeEditor}>Cancel</button>
             </form>
         </div>
     )

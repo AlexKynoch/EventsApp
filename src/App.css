@@ -36,12 +36,3 @@
     transform: rotate(360deg);
   }
 } */
-
-body {
-  font-family: "Righteous", cursive;
-}
-
-h4 {
-  display: inline-flex;
-  flex-direction: row;
-}

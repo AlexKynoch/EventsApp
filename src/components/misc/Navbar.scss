@@ -1,0 +1,21 @@
+@import "../../style/minxins.scss";
+
+.navbar {
+  margin-bottom: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  vertical-align: baseline;
+
+  color: var(--text-link-color);
+  font-style: bold;
+
+  a {
+    color: unset;
+    margin-right: 1rem;
+
+    // text-align: center;
+
+    // flex-direction: row;
+  }
+}

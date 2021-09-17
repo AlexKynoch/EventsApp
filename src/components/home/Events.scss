@@ -1,0 +1,54 @@
+@import "../../style/minxins.scss";
+
+.event {
+  @include card();
+  margin: 1.5rem 0;
+
+  .container {
+    background-color: var(--dark-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+  }
+
+  .title,
+  .description,
+  .location,
+  .day,
+  .month,
+  .year {
+    margin-bottom: 1rem;
+  }
+
+  .btn-delete,
+  .btn-edit {
+    @include btn();
+  }
+
+  .btn-edit {
+    background-color: var(--primary-color);
+  }
+
+  .btn-delete {
+    background-color: var(--danger-color);
+    color: var(--text-light-color);
+  }
+  //   .description,
+  //   .location,
+  //   .day,
+  //   .month,
+  //   .year {
+  //     background-color: var(--dark-color);
+  //     padding: 0.5rem;
+  //     border-radius: 5px;
+  //   }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    display: inline-flex;
+    flex-direction: row;
+    font-size: 20px;
+  }
+}

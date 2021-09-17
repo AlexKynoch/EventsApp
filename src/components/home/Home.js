@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import Event from "./Event";
 import EventEditor from "./EventEditor";
+import "./Home.scss";
 
 
 function Home() {
@@ -50,7 +51,7 @@ function Home() {
     return (
         <div className="home">
             {!eventEditorOpen && (
-                <button onClick={() => setEventEditorOpen(true)}>
+                <button className="btn-editor-toggle" onClick={() => setEventEditorOpen(true)}>
                     Add Event
                 </button>
             )}

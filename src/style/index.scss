@@ -1,0 +1,46 @@
+@import "./variables.scss";
+@import "./minxins.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark-color);
+  color: var(--text-dark-color);
+  font-family: "Righteous", cursive, sans-serif;
+}
+
+// h4 {
+//   display: inline-flex;
+//   flex-direction: row;
+//   font-size: 20px;
+// }
+
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 1000px;
+}
+
+//reset
+button {
+  border: unset;
+  background: unset;
+  font: unset;
+  color: unset;
+  cursor: pointer;
+}
+
+a {
+  color: unset;
+  text-decoration: unset;
+  @include link();
+}
+
+input,
+textarea {
+  font: unset;
+}
